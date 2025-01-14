@@ -61,15 +61,11 @@ web_modules/
 
 # Output of 'npm pack'
 *.tgz
-.vscode
 # Yarn Integrity file
 .yarn-integrity
 img.js
 # dotenv environment variables file
 twitter.js
-.env
-.env.test
-.env.production
 
 start.sh
 # parcel-bundler cache (https://parceljs.org/)
@@ -105,11 +101,6 @@ dist
 .tern-port
 
 # VS Code settings
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # SvelteKit build / generate output
 .svelte-kit
@@ -126,3 +117,8 @@ public/build
 
 # Plop js template files
 .plop-templates
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
